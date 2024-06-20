@@ -1,6 +1,0 @@
-façam o git clone
-e somente façam modificações nessa pasta aqui!!!
-e JAMAIS SUBAM O CÓDIGO PARA A MAIN!!! JAMAAAAIS
-Criem sempre uma branch para vocês, pode ser o nome de vocês
-Não passem mais de 2 dias sem mexer nesse códido, vai ser critério avaliativo
-tmj, é nois
