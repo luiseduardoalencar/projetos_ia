@@ -22,7 +22,7 @@ while True:
     start = time.time()
     classes, scores, boxes = model.detect (frame,0.1,0.2) #mudar o pesos para melhorar a rede 
     end =time.time()
-    for(classid,scores,box) in zip(classes.flatten(),scores.flatten(),boxes):
+    for(classid,scores,box) in zip(classes,scores,boxes):
         color = Colors[int(classid) % len(Colors)]
         label = f"{class_name[int (classid)]} : {scores:.2f}" #pega o id para classificar o tipo e o score é o a certeza que o modelo tem de que ta certo 
         cv2.rectangle(frame, box , color, 2)
